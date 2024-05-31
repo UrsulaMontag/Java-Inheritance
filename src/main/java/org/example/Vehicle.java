@@ -16,6 +16,11 @@ public class Vehicle {
         this.yearOfManufacture = yearOfManufacture;
     }
 
+    // Step 3: Implement a method in the "Vehicle" class that outputs information about the vehicle.
+    public void printVehicle() {
+        System.out.println("The vehicle is: " + manufacturer + " " + model + " from " + yearOfManufacture);
+    }
+
     public String getModel() {
         return model;
     }

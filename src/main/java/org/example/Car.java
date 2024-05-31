@@ -11,4 +11,11 @@ public class Car extends Vehicle {
 
         this.doorsQuantity = doorsQuantity;
     }
+
+    // Step 4: Override the method from step 3 in the "Car" class to also output the number of doors.
+    @Override
+    public void printVehicle() {
+        super.printVehicle();
+        System.out.println("And the number of doors is: " + doorsQuantity);
+    }
 }
